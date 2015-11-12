@@ -139,7 +139,7 @@ description: |
     To enable the use of Facebook dialogs (e.g., Login, Share), you also need to include the following key and values in `tiapp.xml`
     to handle the switching in and out of your app:
 
-    <key>LSApplicationQueriesSchemes</key>
+        <key>LSApplicationQueriesSchemes</key>
         <array>
             <string>fbapi</string>
             <string>fb-messenger-api</string>
